@@ -24,7 +24,7 @@ app.get('/', function (req, res) {
 });
 
 app.post('/', function(req, res){
-  //Takes the value of the input with the name listItem
+  //Takes the value of the input with the name list Item
   let item = req.body.listItem;
   //Takes the value of the item next to the 'Completeted' button
   let completeTask = req.body.button
