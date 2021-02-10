@@ -1,0 +1,16 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "This is a Node.js app that is a simple to do list.  The user inputs an item and submits it.  The text then goes to the 'Things to do' list.  The item has a button next to it to be clicked and move the item down to the 'Things Done' list.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "mustache-express": "^1.2.5"
+  }
+}
